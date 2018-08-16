@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Cooky</string>
+
+    <!-- Placeholders -->
+    <string name="imageview_place_holder">This is a placeholder for ImageViews.</string>
+    <string name="serving_text_place_holder">%1$d servings</string>
+    <string name="step_title_place_holder">You are now watching the %1$s step.</string>
+    <string name="step_title_error_place_holder">There is no video found. It is enough that following the ingredients and description below! You are now on the %1$s step.</string>
+    <string name="ingredients_counter_place_holder">%1$d ingredients</string>
+
+    <!-- Error Messages -->
+    <string name="no_recipe_found">There is no recipe found at the moment.</string>
+    <string name="no_connection_found">It seems you are offline. Please check your connection.</string>
+    <string name="no_connection_title">No Connection.</string>
+    <string name="no_connection_content">Error retrieving information from server</string>
+    <string name="no_connection_retry">Retry</string>
+
+    <!-- Info Messages -->
+    <string name="twice_press_to_exit">Press back once again to exit.</string>
+    <string name="congrats_for_ingredient">Congratulations, you have done for %1$s!</string>
+    <string name="you_are_up_to_date">You are up-to-date!</string>
+    <string name="congratulations_text">You\'re all caught up, boss!</string>
+    <string name="welcome_text">It\'s good to see you around, chief!</string>
+    <string name="added_to_widget">%1$s was successfully added to widget.</string>
+    <string name="remove_from_widget">%1$s was successfully removed from widget.</string>
+    <string name="error_while_adding_to_widget">This recipe might have already been added.</string>
+    <string name="error_while_removing_from_widget">This recipe might have already been removed.</string>
+    <string name="empty_widget_text">As it seems, you don\'t have any recipe at the moment. If you want to have one now, just click on the button below and add a recipe in your list!</string>
+
+    <!-- Extra Recipe Step Text -->
+    <string name="first_step_text">Welcome!</string>
+    <string name="first_step_summary_text">You\'ll be learning how to prepare a %1$s</string>
+    <string name="last_step_text">Outro</string>
+    <string name="last_step_summary_text">Congratulations, you have done with %1$s</string>
+
+    <!-- Toolbar Headers -->
+    <string name="steps_header">Steps</string>
+    <string name="steps_tablet_header">Steps &amp; Ingredients</string>
+    <string name="ingredients_header">%1$s Recipe</string>
+
+    <!-- Button Texts -->
+    <string name="steps_go">Go</string>
+    <string name="steps_go_back">Go Back</string>
+    <string name="steps_complete">Complete!</string>
+
+    <!-- Menu Texts -->
+    <string name="about_menu_text">About</string>
+    <string name="licence_menu_text">Licence</string>
+    <string name="add_to_widget_menu_text">Add to widget</string>
+    <string name="remove_from_widget_menu_text">Remove from widget</string>
+
+    <!-- Step & Ingredients Texts -->
+    <string name="ingredients_title">Ingredients</string>
+    <string name="quantity_label">Quantity:</string>
+    <string name="measure_label">Measure:</string>
+    <string name="ingredient_label">Ingredient:</string>
+
+    <!-- Dialog Texts -->
+    <string name="step_dialog_title">You are done!</string>
+    <string name="step_dialog_message">Congratulations! You have completed all the steps for %1$s</string>
+    <string name="step_dialog_button">Close</string>
+
+    <!-- About Texts -->
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="about_description">This app is a task that Udacity Google Android Developer Track Nanodegree Program applies to all its fellows. You will be able to prepare any cookie among the most popular and delicious 4 ones. You can view steps and watch videos about how to prepare!</string>
+    <string name="version" translatable="false">Version: %s</string>
+    <string name="connect_with_us">Connect with us</string>
+    <string name="email" translatable="false">nuhkocaa@gmail.com</string>
+    <string name="udacity_website" translatable="false">https://www.udacity.com/</string>
+    <string name="udacity_facebook" translatable="false">Udacity</string>
+    <string name="udacity_twitter" translatable="false">udacity</string>
+    <string name="udacity_youtube" translatable="false">UCul78U9NKBYHyqnhQfqUXmg</string>
+    <string name="udacity_play_store" translatable="false">com.udacity.android</string>
+    <string name="udacity_instagram" translatable="false">udacity</string>
+    <string name="github" translatable="false">nuhkoca</string>
+    <string name="scholarship_element" translatable="false">Scholarships at Udacity</string>
+    <string name="scholarship_link" translatable="false">https://www.udacity.com/scholarships</string>
+    <string name="chooser_title" translatable="false">Open with...</string>
+
+    <!-- Recipe Names-->
+    <string-array name="recipeNames">
+        <item>Nutella Pie</item>
+        <item>Brownies</item>
+        <item>Yellow Cake</item>
+        <item>Cheesecake</item>
+    </string-array>
+
+    <!-- Libraries Included -->
+    <string-array name="libraries_included">
+        <item name="timber">timber</item>
+        <item name="glide">glide</item>
+        <item name="okhttp">okhttp</item>
+        <item name="bottomsheet">bottomsheet</item>
+        <item name="retrofit">retrofit</item>
+        <item name="leakcanary">leakcanary</item>
+        <item name="rxjava">rxjava</item>
+        <item name="android-about-page">android-about-page</item>
+        <item name="exo_player">ExoPlayer</item>
+        <item name="material_stepper">MaterialStepperView</item>
+        <item name="schematic">schematic</item>
+        <item name="stetho">stetho</item>
+    </string-array>
+
+    <!-- Libraries Excluded -->
+    <string-array name="libraries_excluded">
+        <item name="fastadapter">fastadapter</item>
+        <item name="Android-Iconics">Android-Iconics</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="rate_us">Rate Us</string>
+
+</resources>

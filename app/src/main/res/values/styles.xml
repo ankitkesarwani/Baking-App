@@ -1,0 +1,163 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:itemBackground">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    <!-- Splash Screen Theme -->
+    <style name="AppTheme.Launcher" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+
+    <!-- Toolbar Header Theme -->
+    <style name="ToolbarHeaderAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="ToolbarHeaderAppearance.Title">
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+    </style>
+
+
+    <!-- CardView Theme -->
+    <style name="RecipeCardViewAppearance">
+        <item name="cardBackgroundColor">@color/colorPrimaryDark</item>
+        <item name="android:shape">rectangle</item>
+        <item name="contentPadding">0.5dp</item>
+    </style>
+
+    <!-- Ingredients & Step CardView Theme -->
+    <style name="IngredientsCardViewAppearance">
+        <item name="contentPaddingBottom">@dimen/dp16</item>
+        <item name="contentPaddingLeft">@dimen/dp16</item>
+        <item name="contentPaddingRight">@dimen/dp16</item>
+        <item name="contentPaddingTop">@dimen/dp8</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+        <item name="cardElevation">@dimen/dp4</item>
+        <item name="android:layout_marginStart">@dimen/dp8</item>
+        <item name="android:layout_marginEnd">@dimen/dp8</item>
+        <item name="android:layout_marginBottom">@dimen/dp8</item>
+        <item name="android:layout_marginTop">@dimen/dp8</item>
+    </style>
+
+    <!-- Step Header Theme -->
+    <style name="StepAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="StepAppearance.Header">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Step Label Theme -->
+    <style name="StepAppearance.Label">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:layout_marginEnd">@dimen/dp8</item>
+    </style>
+
+
+    <!-- Step Item Theme -->
+    <style name="StepAppearance.Item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <!-- Recipe ProgressBar Theme -->
+    <style name="RecipeProgressBarAppearance">
+        <item name="android:indeterminate">true</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:indeterminateTint">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="IngredientTextCounterAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="IngredientTextCounterAppearance.Counter">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Recipe ImageView Theme -->
+    <style name="RecipeImageViewAppearance">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <!-- RecipeCard Text Theme-->
+    <style name="RecipeCardTextAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="RecipeCardTextAppearance.ItemRow">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingStart">@dimen/dp8</item>
+        <item name="android:paddingEnd">@dimen/dp8</item>
+    </style>
+
+
+    <!-- RecipeCard Servings Text Theme-->
+    <style name="RecipeCardTextAppearance.ServingsRow">
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">@dimen/dp8</item>
+    </style>
+
+
+    <!-- Vertical Stepper Button Theme -->
+    <style name="StepperButtonAppearance">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <!-- Error Button Theme -->
+    <style name="BlueButtonViewAppearance" />
+    <style name="BlueButtonViewAppearance.Button">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/button_ripple_effect</item>
+    </style>
+
+
+    <!-- -->
+    <style name="IngredientsErrorImageViewAppearance">
+        <item name="android:padding">48dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+</resources>

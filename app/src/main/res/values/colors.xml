@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF6E40</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="exoPlayerTimeBarColor">#2196F3</color>
+    <color name="connectionIssueIconColor">#D2D5DA</color>-->
+
+    <!--<color name="colorPrimary">#8DC63F</color>-->
+    <color name="colorPrimary">#547523</color>
+    <color name="colorPrimaryDark">#547523</color>
+    <color name="colorAccent">#7E2C10</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="exoPlayerTimeBarColor">#2196F3</color>
+    <color name="connectionIssueIconColor">#D2D5DA</color>
+</resources>
